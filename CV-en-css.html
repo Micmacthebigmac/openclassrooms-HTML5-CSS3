@@ -11,6 +11,7 @@
 	img
 	{
 		text-align: left;
+		margin: 0px;
 	}
 	h2
 	{
@@ -21,6 +22,8 @@
 		text-decoration: underline red;
 		border-radius: 12px;
 		box-shadow: 6px 6px 6px black;
+		width: 600px;
+		padding: 3px;
 	}
 	.en_Bleu
 	{
@@ -46,21 +49,69 @@
     font-style: normal;
 
 }
+	li
+	{
+		margin-bottom: 6px;
+	}
 	body
 	{
 		background-image: url(https://cdn.pixabay.com/photo/2017/07/31/21/42/wallpaper-2561368_960_720.jpg);
 	}
+	.adroite
+	{
+		text-align: justify;
+		border: 3px black solid;
+		height: 300px;
+		width: : 20%;
+		overflow: scroll;
+		word-wrap: break-word;
 
+	}
+	.conteneur
+	{
+		display: flex;
+		flex-wrap: warp;
+		justify-content: space-around;
+		align-items: baseline;
+	}
+	.salut:nth-child(1)
+	{
+		background-color: green;
+		border: 1px black solid;
+	}
+	.coucou:nth-child(2)
+	{
+		background-color: red;
+		border: 1px black solid;
+		order: 3;
+	}
+	.Salut:nth-child(3)
+	{
+		background-color: blue;
+		border: 1px black solid;
+	}
 	</style>
 </head>
 <body>
 	<h1>Mon CV</h1>
-	<a href="https://maphotoportrait.fr/1363-thickbox_default/tarif-photo-cv-linkedin-avec-conseil-et-coaching-image.jpg"><img src="https://www.stepstone.be/wp-content/uploads/CV-Portret-Foto.jpg"></a><br />
+	<a href="https://maphotoportrait.fr/1363-thickbox_default/tarif-photo-cv-linkedin-avec-conseil-et-coaching-image.jpg"><img src="https://www.stepstone.be/wp-content/uploads/CV-Portret-Foto.jpg" alt=" Photo de profil"></a><br />
 	<h2>Mes éxperiences</h2>
 	<p>
 	<ul>
 		<li>Stage</li>
 	</ul>
+</p>
+<p class="adroite">Google LLC /ˈguːgəl/7 est une entreprise américaine de services technologiques fondée en 1998 dans la Silicon Valley, en Californie, par Larry Page et Sergey Brin, créateurs du moteur de recherche Google.
+
+C'est une filiale de la société Alphabet depuis août 2015.
+
+L'entreprise s'est principalement fait connaître à travers la situation monopolistique de son moteur de recherche, concurrencé historiquement par AltaVista puis par Yahoo! et Bing. Elle a ensuite procédé à de nombreuses acquisitions et développements et détient aujourd'hui de nombreux logiciels et sites web notables parmi lesquels YouTube, le système d'exploitation pour téléphones mobiles Android, ainsi que d'autres services tels que Gmail, Google Earth, Google Maps ou Google Play.
+
+Google s'est donné comme mission « d'organiser l'information à l'échelle mondiale et de la rendre universellement accessible et utile »8. Cela dit, le moteur de recherche protège également les propriétés intellectuelles en désindexant9 les sites qui tentent de violer les droits d'auteurs. Après Larry Page et Eric Schmidt, son DG est, depuis 2015, Pichai Sundararajan10.
+
+Google est devenu l'une des premières entreprises américaines et mondiales par sa valorisation boursière, quelques années après une entrée en bourse originale. Début 2008, elle valait 176 milliards de dollars à Wall Street11. Le 1er février 2016, sa capitalisation boursière dépasse celle d'Apple et devient la première des États-Unis, avec un total de 550 milliards de dollars dispersés dans ses différentes catégories d'actions12.
+
+En 2014, le classement Best Global Brands d'Interbrand positionne la marque Google en seconde position mondiale, derrière la marque Apple, avec une estimation de sa valeur à 107,43 milliards de dollars (+15 % par rapport à 2013), dépassant la barre des cent milliards de dollars pour la première fois depuis la création de ce classement en 197413. En 2016, le classement Brand Z Top 100 place Google en première position devant Apple14.</p>
 
 
 	<h2>Mes compétances</h2>
@@ -74,11 +125,15 @@
 	<h2>Ma formation</h2>
 	<p>
 			<ul>
-				<li>Formation(<span class="en_Bleu">2020)</li>
-				<li>Lycée(<span class="en_Bleu">2020-2020)</li>
-				<li>Collège(<span class="en_Bleu">2020-2020)</li>
+				<li>Formation <span class="en_Bleu">(2020)</li>
+				<li>Lycée <span class="en_Bleu">(2020-2020)</li>
+				<li>Collège <span class="en_Bleu">(2020-2020)</li>
 			</ul>
 		</p>
 
 	</body>
+	<div class="conteneur">
+	<p class="salut">salut </p>
+	<p class="coucou">coucou</p>
+	<p class="Salut">Salut</p>
 	</html>
