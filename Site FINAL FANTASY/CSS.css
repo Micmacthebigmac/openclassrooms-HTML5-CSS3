@@ -1,0 +1,45 @@
+body, html
+{
+	background-color: black;
+	height: 100%;
+	margin: 0px;
+}
+
+#fond1
+{
+	margin: 0px;
+	height: 300px;
+	padding: 0px;
+	width: 100%;
+}
+
+#bannière
+{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100px;
+}
+
+header
+{
+	display: flex;
+	flex-direction: column;
+	background-color: black;
+}
+
+nav
+{
+	position: relative;
+	bottom: 15%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+h3
+{
+	font-size: 2.5em;
+	color: rgb(230,230,230);
+	font-family: impact;
+}
