@@ -1,0 +1,101 @@
+#Nom
+{
+	width: 135px;
+}
+#lesinfo
+{
+	background-color: white;
+	height: 600px;
+	width: 145px;
+	border: black double 3px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+#améliorer
+{
+	height: 150px;
+	width: 400px;
+}
+.flexrow
+{	width: 100%;
+	border: black solid 1px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+body
+{
+	background-image: url(https://weneedfun.com/wp-content/uploads/2016/02/Water-Picture-23-1024x768.jpg);
+	z-index: -1;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+.bandeau
+{
+	height: 100%;
+	width: 150px;
+}
+.Fondffx
+{
+	height: 200px;
+	width: 500px;
+}
+.flexxolumn
+{
+	display: flex;
+	flex-direction: column;
+}
+.bordure
+{
+	border-bottom: black solid 1px;
+}
+table
+{
+	border-collapse: collapse;
+	caption-side: bottom;
+	text-align: center;
+}
+th, td
+{
+	border: black solid 1px;
+}
+.flexrow2
+{
+	border: black solid 1px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.nav
+{
+	background-color: rgb(30,30,30);
+	color: blue; 
+	height: 750px;
+	width: 150px;
+	border: blue double 2px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.fondblanc
+{
+	background-color: white;
+	z-index: 1;
+}
+@media screen and (max-width: 1280px)
+{
+	.flexrow
+{
+	width: 100%;
+	border: black solid 1px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+}
