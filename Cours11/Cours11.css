@@ -1,0 +1,76 @@
+body
+{
+	background-color: black;
+	color: white;
+	font-family: Berlin Sans FB;
+}
+h1
+{
+	text-align: center;
+	font-size: 5em;
+	text-decoration: underline;	
+}
+.Menu
+{
+	display: flex;
+	flex-direction: column-reverse;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	height: 1000px
+}
+section
+{
+	display: inline-block;
+	border: 3px white solid;
+	vertical-align: top;
+}
+aside
+{
+	display: inline-block;
+	border: 3px white solid;
+	margin: 10px;
+	width: 300px;
+}
+a
+{
+	text-decoration: none;
+	color: white;
+}
+a:hover
+{
+	font-weight: bold;
+}
+p
+{
+	font-size: 2em;
+}
+.sephiroth:hover
+{
+	Color: cyan;
+}
+.zack:hover
+{
+	color: grey;
+}
+.cloud:hover
+{
+	color: yellow;
+}
+.morbol:hover
+{
+	color: green;
+}
+img
+{
+	display: inline-block;
+	z-index: 1;
+}
+.genesis
+{
+	position: absolute;
+	bottom: -800px;
+	right: 300px;
+	z-index: 2;
+	height: 600px
+	width: 300px;
+}
