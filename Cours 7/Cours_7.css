@@ -1,0 +1,26 @@
+*
+{
+	font-family: Berlin Sans FB;
+}
+h1
+{
+	font-size: 3em;
+	text-align: center;
+	text-decoration: underline blue;
+}
+p, li
+{
+	font-size: 1.3em;
+}
+.italic
+{
+	font-style: italic;
+}
+.bold
+{
+	font-weight: bold;
+}
+.float
+{
+	float: right;
+}
