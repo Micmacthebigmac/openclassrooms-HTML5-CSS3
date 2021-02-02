@@ -37,9 +37,73 @@ nav
 	justify-content: space-around;
 }
 
+section
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.Histoire:hover
+{
+	font-family: arial black;
+	text-decoration: underline;
+	color: rgb(0,230,230);
+}
+
+.Perso:hover
+{
+	color: rgb(0,100,255);
+	font-family: arial black;
+	text-decoration: underline;
+}
+
+.équipement:hover
+{
+	font-family: arial black;
+	text-decoration: underline;
+	color: rgb(0,110,0);
+}
+
 h3
 {
 	font-size: 2.5em;
 	color: rgb(230,230,230);
 	font-family: impact;
+}
+
+p
+{
+	color: white;
+	font-family: arial;
+	font-size: 1.2em;
+}
+
+legend
+{
+	color: white;
+}
+
+a
+{
+	color: rgb(230,230,230);
+}
+
+a:visited
+{
+	color: rgb(230,230,230);
+}
+
+.flexcol
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.connect
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 3px;
 }
